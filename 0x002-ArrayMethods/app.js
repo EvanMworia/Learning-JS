@@ -3,8 +3,9 @@ const people = [
   { name: "Ann", Age: 45, Occupation: "Designer" },
   { name: "Susan", Age: 30, Occupation: "Tester" },
 ];
-
+//using a call back function
 const result = people.find(function (person) {
   return person.name === "John";
 });
+
 console.log(result);
